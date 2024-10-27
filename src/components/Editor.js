@@ -119,7 +119,9 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
   return (
     <>
       <div>
-        <label htmlFor="mode-select">Language:</label>
+        <label htmlFor="mode-select" className="btn-lang">
+          Language:
+        </label>
         <select id="mode-select" onChange={handleModeChange}>
           <option value="javascript">JavaScript</option>
           <option value="python">Python</option>
@@ -129,7 +131,9 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
         </select>
       </div>
       <div>
-        <label htmlFor="theme-select">Theme:</label>
+        <label htmlFor="theme-select" className="btn-lang">
+          Theme:
+        </label>
         <select id="theme-select" onChange={handleThemeChange}>
           {themeOptions.map((theme) => (
             <option key={theme} value={theme}>
