@@ -1,6 +1,6 @@
-# SwapCode
+# CollabCode
 
-SwapCode is a real-time collaborative code editor that allows multiple users to write and edit code together in the same room. It was built using React.js, Node.js, and Socket.io.
+CollabCode is a real-time collaborative code editor that allows multiple users to write and edit code together in the same room. It was built using React.js, Node.js, and Socket.io.
 
 ## Features
 
@@ -23,7 +23,3 @@ SwapCode is a real-time collaborative code editor that allows multiple users to 
 3. Start the server with `npm start`.
 4. Open `localhost:3000` in your browser.
 
-## Contributing
-
-Contributions are always welcome! Please feel free to submit a pull request or open an issue if you find any bugs.
-#suggestions for collaboration- Add Run code option.
