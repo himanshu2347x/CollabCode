@@ -86,36 +86,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
     editorRef.current.setOption('theme', theme);
   };
 
-  const handleRunCode = () => {
-    const code = editorRef.current.getValue();
-    switch (editorRef.current.getOption("mode").name) {
-      case "javascript":
-        try {
-          eval(code);
-        } catch (e) {
-          console.error(e);
-        }
-        break;
-      case "python":
-        // Execute the Python code using a runtime environment
-       
-        break;
-      case "text/x-c++src":
-        // Execute the C++ code using a runtime environment
-        
-        break;
-      case "text/x-java":
-        // Execute the Java code using a runtime environment
-        
-        break;
-      case "xml":
-        // Execute the XML code using a runtime environment
-        
-        break;
-      default:
-        break;
-    }
-  };
+
   return (
     <>
       <div>
